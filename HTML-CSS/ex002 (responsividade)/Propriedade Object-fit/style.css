@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media (min-width:360px) and (max-width: 760px){
+body{background-color: red;  transition: width 1s, height 1s;}
+img{width: 300px; height: 300px;
+transition: width 1s, height 1s;
+
+}
+  
+}
+
+
+
+@media (min-width: 761px) and (max-width: 1000px){
+body{background-color: blue;}
+img{transition: width 1s, height 1s;
+width: 600px; height: 600px;
+}
+}
+
+
+@media (min-width: 1001px){
+    body{background-color: green;}
+    img{transition: width 1s, height 1s;
+    width: 900px;
+height: 900px;
+    }
+    }
+    
+

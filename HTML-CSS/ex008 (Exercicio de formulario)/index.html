@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+
+</header>
+
+
+
+    <main>
+   
+  
+<form action="cadastro.js" method="post">
+   <div class="mae">
+
+<div class="col1">
+    
+            <label for="name">Nome completo:</label>
+            <input type="text" name="name" id="name" required>
+    
+    <label for="rg">RG:</label>
+    <input type="text" name="rg" id="rg" required minlength="9" maxlength="12" placeholder="XX.XXX.XXX-X" pattern="\d{2}\.\d{3}\.\d{3}-\d{1}">
+    
+    <label for="pai">Pai:</label>
+    <input type="text" name="pai" id="pai" required>
+    
+    
+    <p>
+        <label for="esc">Escolaridade:</label>
+        <select name="esc" id="esc" required>
+        <option value="" disabled selected>Selecione sua escolaridade<option>
+        <option value="esc">Ensino Fundamental completo</option>
+        <option value="esc">Ensino médio incompleto</option>
+        <option value="esc">Ensino médio completo</option>
+        <option value="esc">Ensino superior incompleto</option>
+        <option value="esc">Ensino superior completo</option>
+        <option value="esc">Pós-graduação incompleta</option>
+        <option value="esc">Pós-graduação completa</option>
+        <option value="esc">Mestrado incompleto</option>
+        <option value="esc">Mestrado completo</option>
+        <option value="esc">Doutorado incompleto</option>
+        <option value="esc">Doutorado completo</option>
+    
+        </select>
+    </p>
+    
+    <label for="tel">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    
+   <input type="submit" value="Enviar" >
+</div>
+
+<div class="col2">
+
+
+<label for="mes">Data de nascimento:</label>
+<input type="date" name="mes" id="mes" required>
+
+<label for="cpf">CPF:</label>
+<input type="number" name="cpf" id="cpf" required>
+
+<label for="mae">Mãe:</label>
+<input type="text" name="mae" id="mae">
+
+<label for="prof">Profissão:</label>
+<input type="text" name="prof" id="prof">
+</div>
+
+
+
+
+    
+   
+
+
+
+
+
+
+     
+
+
+
+</div>
+</form>
+
+
+
+
+
+    </main>
+</body>
+</html>
