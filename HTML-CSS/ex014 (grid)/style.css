@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+
+.container{display: grid;
+background-color: gray;
+ justify-content: center;
+flex-wrap: wrap;
+height: 800px;
+
+grid-template-columns: repeat(3, 200px);
+grid-auto-rows: minmax(auto, auto);
+gap: 10px;
+}
+
+
+.item{border-radius: 10px;
+background-color: darkred;
+padding: 20px;
+color: wheat;
+font-size: 20px;
+border: 1px solid black;
+}
+
+.item:hover{scale: 2;
+transition: 1s;}
+
+
+
+
+
+
+
+

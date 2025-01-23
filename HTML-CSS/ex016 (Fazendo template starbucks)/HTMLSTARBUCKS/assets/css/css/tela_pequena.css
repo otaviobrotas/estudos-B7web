@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+
+
+ 
+
+
+
+*{margin: 0px;
+padding: 0px;
+
+}
+
+html, body{font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+   
+}
+
+.listra{background-color: #117050;
+height: 10px;
+
+border: 1px solid red;
+ }
+ 
+header{  display: block;
+ 
+width: 500px;
+}
+.container{
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin: auto;
+
+}
+
+.menu_esquerda img{width: 50px;
+    padding: 15px;
+margin-right: 20px;}
+
+.menu_direita{display: flex;
+
+margin-right: 20px;
+
+}
+
+.material-symbols-outlined{color: rgb(96, 96, 96);
+}
+
+#pesquisa{width: 200px;
+border: 1px solid;
+height: 30px;
+padding: 10px;
+font-family: "consolas";
+
+}
+.menu{margin-left: 15px;
+cursor: pointer;
+}
+
+
+::-webkit-scrollbar{width: 0px;
+}
+
+
+main{
+    display: block;
+margin: auto;
+width: 500px;
+height: 90vh;
+background-image: url(/HTMLSTARBUCKS/assets/imagens/bg.jpg);
+
+background-position: center;
+background-size: cover;
+
+
+}
+main h1{
+    width: 400px;
+font-family: "Oswald";
+font-size: 80px;
+margin-left: 20px;
+
+}
+
+main p{ margin-left: 20px;
+margin-top: 10px;
+}
+
+.icones_main{border-radius: 50%;
+border: 4px solid #117050;
+overflow: hidden;
+width: 150px;
+height: 100px;
+
+background-position: center;
+background-size: cover;
+margin-right: 50px;
+}
+
+.prim{background-image: url(/HTMLSTARBUCKS/assets/imagens/c1.jpg);}
+.sec{background-image: url(/HTMLSTARBUCKS/assets/imagens/c2.jpg);}
+.terc{background-image: url(/HTMLSTARBUCKS/assets/imagens/c3.jpg);}
+.container_section
+{
+display: flex;
+flex-flow: column;
+
+width: 100%;
+height: 100%;
+
+
+}
+
+.elementos{
+   width: 450px;
+height: 60%;
+display: flex;
+
+margin-top: 20px;
+padding: 20px;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+.texto2{
+height: 100%;}
+
+.texto2 h2{font-size: 20px;
+    padding: 20px;
+     
+}
+
+.texto h2, .texto3 h2{
+ 
+ padding: 20px;
+font-size: 50px;
+font-weight: bolder;
+
+margin: auto;
+
+width: 70%;
+}
+
+.texto a, .texto3 a, .texto2 a{margin: auto;
+display: block;
+margin-top: 20px;
+}
+
+
+.texto, .texto3{
+
+width: 100%;
+height: 100%;
+}
+
+.texto p,.texto2 p,  .texto3 p{
+
+width: 70%;
+margin: auto;
+text-align: center;
+}
+
+.botao{text-align: center;
+
+color: gray;
+text-decoration: none;
+border: 2px solid black;
+width: 200px;
+height: 25px;
+margin: auto;
+margin-top: 20px;
+padding: 10px;
+}
+
+.botao a{color: gray;
+text-decoration: none;
+font-size: 20px;
+}
+
+.botao:hover{background-color: rgb(52, 52, 52);
+color: white;
+}
+
+.texto3{
+    background-image: url(/HTMLSTARBUCKS/assets/imagens/bg2.jpg);
+height: 94.5%;
+width: 94.7%;
+background-position: left bottom;
+
+}
+
+.texto, .texto2, .texto3{ padding: 20px;
+background-color: white;}
+
+
+.img3{display: none;}
+.img{width: 100%;
+    height: 100%;
+margin-top: -5px;
+}
+
+.grid{display: block;
+width: 500px;
+ 
+
+   
+    overflow: hidden;
+ 
+align-items: center;
+}
+
+
+.img1
+{
+width: 100%;
+grid-area: img1;
+}
+
+
+
+.img5{display: none;}
+
+.img6{display: none;}
+
+ .texto4{grid-area: texto4;
+    width: 100%;
+height: 90vh;
+background-image: url(/HTMLSTARBUCKS/assets/imagens/bg3.jpg);
+
+ background-size: cover;
+background-repeat: no-repeat;
+ background-position:  right right;
+padding: 40px;
+
+}
+
+
+.texto4 h2{margin-bottom: 20px;
+font-size: 50px;
+font-weight: bolder;
+
+}
+
+.texto4 p{margin-bottom: 40px;
+ color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 250px;
+text-shadow: 0px 1px 5px rgb(255, 255, 255);
+}
+
+.texto4 a{
+    display: block;
+   background-color: rgb(55, 55, 55);
+    width: 300px;
+    color: white;
+}
+
+.img6{
+
+
+}
+
+
+footer{border: 1px solid black;
+color: white;
+height: 100px;
+width: 500px;
+display: block;
+background-color: rgb(51, 51, 51);
+font-family: "consolas";
+font-size: 15px;
+}
+footer p{text-align: center;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+footer a{text-decoration: underline;
+color: #A4F8D2;}
+footer a:hover{text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

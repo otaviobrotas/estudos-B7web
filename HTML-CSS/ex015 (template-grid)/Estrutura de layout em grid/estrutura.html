@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de layout em grid</title>
+    <style>
+.container{display: grid;
+    background-color: darkgray;
+
+gap: 10px;
+    grid-template-areas: 
+    "header header header header"
+    "nav conteudo conteudo conteudo"
+   "footer footer footer ad"
+    ;
+}
+
+.header{grid-area: header;}
+
+.nav{grid-area: nav;}
+
+.conteudo{grid-area: conteudo;}
+
+.footer{grid-area: footer;}
+
+.ad{grid-area: ad;}
+
+
+.item{background-color: darkred;
+border-radius: 10px;
+color: white;
+font-size: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="item header">Header</div>
+<div class="item nav">Nav</div>
+<div class="item conteudo">Conteudo</div>
+<div class="item footer">Footer</div>
+<div class="item ad">Anuncio</div>
+
+
+    </div>
+</body>
+</html>
