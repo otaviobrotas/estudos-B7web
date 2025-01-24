@@ -63,7 +63,7 @@ main{
 margin: auto;
 width: 100vw;
 height: 90vh;
-background-image: url(/HTMLSTARBUCKS/assets/imagens/bg.jpg);
+background-image: url(../img/bg.jpg);
 background-position: top center;
 background-size: cover;
 
@@ -92,9 +92,9 @@ background-size: cover;
 margin-right: 50px;
 }
 
-.prim{background-image: url(/HTMLSTARBUCKS/assets/imagens/c1.jpg);}
-.sec{background-image: url(/HTMLSTARBUCKS/assets/imagens/c2.jpg);}
-.terc{background-image: url(/HTMLSTARBUCKS/assets/imagens/c3.jpg);}
+.prim{background-image: url(../img/c1.jpg);}
+.sec{background-image: url(../img/c2.jpg);}
+.terc{background-image: url(../img/c3.jpg);}
 .container_section
 {
 display: flex;
@@ -170,7 +170,7 @@ color: white;
 }
 
 .texto3{
-    background-image: url(/HTMLSTARBUCKS/assets/imagens/bg2.jpg);
+    background-image: url(../img/bg2.jpg);
 height: 94.5%;
 width: 94.7%;
 background-position: left bottom;
@@ -230,7 +230,7 @@ grid-area: img1;
  .texto4{grid-area: texto4;
 width: 100%;
 height: 90vh;
-background-image: url(/HTMLSTARBUCKS/assets/imagens/bg3.jpg);
+background-image: url(../img/bg3.jpg);
 margin-left: 250px;
  background-size: contain;
  background-position: bottom;
