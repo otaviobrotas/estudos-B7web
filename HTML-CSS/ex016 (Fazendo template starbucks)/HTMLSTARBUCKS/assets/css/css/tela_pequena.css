@@ -105,9 +105,9 @@ background-size: cover;
 margin-bottom: 10px;
 }
 
-.prim{background-image: url(/HTMLSTARBUCKS/assets/imagens/c1.jpg);}
-.sec{background-image: url(/HTMLSTARBUCKS/assets/imagens/c2.jpg);}
-.terc{background-image: url(/HTMLSTARBUCKS/assets/imagens/c3.jpg);}
+.prim{background-image: url(../img/c1.jpg);}
+.sec{background-image: url(../img/c2.jpg);}
+.terc{background-image: url(../img/c3.jpg);}
 .container_section
 {
 display: flex;
@@ -194,7 +194,7 @@ color: white;
 }
 
 .texto3{
-    background-image: url(/HTMLSTARBUCKS/assets/imagens/bg2.jpg);
+    background-image: url(../img/bg2.jpg);
 
 background-position: left bottom;
 
@@ -253,7 +253,7 @@ grid-area: img1;
 
  .texto4{grid-area: texto4;
 
-background-image: url(/HTMLSTARBUCKS/assets/imagens/bg3.jpg);
+background-image: url(../img/bg3.jpg);
 
  background-size: contain;
  
@@ -268,7 +268,8 @@ font-size: 40px;
 font-weight: bolder;
  
 }
-.texto4 h2, .texto4 p{background-color: #117050;}
+.texto4 h2, .texto4 p{background-color: #117050ae;
+border-radius: 10px;}
 
 
 
